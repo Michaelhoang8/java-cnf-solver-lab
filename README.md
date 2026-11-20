@@ -1,5 +1,7 @@
 # Java CNF solver lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/java-cnf-solver-lab/)**
+
 A Java 21 DPLL SAT solver with two-watched-literal propagation, a reversible assignment trail, strict DIMACS parsing and explicit `SAT` / `UNSAT` / `UNKNOWN` outcomes. A full-scanner propagation mode shares the search engine for comparison.
 
 ![Actual SAT assignments](docs/charts/models.png)
