@@ -1,0 +1,10 @@
+PASS empty_units_tautologies_duplicates_budget
+PASS watch_movement_backtracking_branch_budget
+PASS strict_parser_malformed_inputs
+PASS defensive_copies_and_single_use
+PASS 1800 independent brute_force cases x 2 propagators
+ALL 5 TEST GROUPS PASSED
+
+PASS exact_branch_budget_and_propagation_only_outcomes
+PASS watched_literals_after_positive_branch_conflict
+ALL 2 INDEPENDENT SOLVER REVIEW TESTS PASSED

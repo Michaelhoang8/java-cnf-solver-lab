@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-20T23:46:47.754990+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Java CNF solver study",
+  "report_sha256_normalized_text": "a9820525a6ef5edeb44b643c53aa54c0d44dc3425e5bb28c092404b2eafa22e6",
+  "video_sha256": "d20e2789ff6c284e60d4b8528a5d1f56696d9fa529df385548c6898e2cff5c9b",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "section": "overview",
+      "sha256": "929eb4d18207274b2b6b33aad1a13e084e0ebfc22a5551315eccabec3c49d490"
+    },
+    {
+      "path": "docs/screenshots/02_constraints.png",
+      "section": "constraints",
+      "sha256": "e909356e83721da68b1170b2f0653f2a067829766aaf137db445916958bcd5d2"
+    },
+    {
+      "path": "docs/screenshots/03_propagation.png",
+      "section": "propagation",
+      "sha256": "c1fe9d2b9d132d193c973d0bc867061d1a54269c6ec2456cddc1aafe08f9713c"
+    },
+    {
+      "path": "docs/screenshots/04_search.png",
+      "section": "search",
+      "sha256": "b30fd99b3ef2f80c7c8ffc66d4ef6613f08414810957c58978c24fe073d1359c"
+    },
+    {
+      "path": "docs/screenshots/05_results.png",
+      "section": "results",
+      "sha256": "90db00e33ca08eca2d76370f64f0f5f7bbc7c6989019056fab1bdf37e862ec5b"
+    },
+    {
+      "path": "docs/screenshots/06_method.png",
+      "section": "method",
+      "sha256": "6917c58a28aa5db1ee05604093d64f69082e8a2c270033bbda145ff47db51791"
+    }
+  ]
+}

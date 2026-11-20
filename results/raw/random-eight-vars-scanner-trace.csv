@@ -1,0 +1,9 @@
+event_id,event,level,literal,original_clause,trail_size
+0,DECIDE,1,1,-1,1
+1,DECIDE,2,3,-1,2
+2,IMPLY,2,4,17,3
+3,IMPLY,2,2,14,4
+4,DECIDE,3,5,-1,5
+5,IMPLY,3,-7,8,6
+6,IMPLY,3,6,18,7
+7,SAT,0,0,-1,7

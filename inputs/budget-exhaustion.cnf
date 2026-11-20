@@ -1,0 +1,6 @@
+c Synthetic fixture: budget-exhaustion
+c Known satisfiable, but zero decision assignments are permitted; this is not an UNSAT claim.
+p cnf 2 3
+1 2 0
+-1 2 0
+1 -2 0

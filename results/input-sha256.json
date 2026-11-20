@@ -1,0 +1,13 @@
+{
+  "inputs/budget-exhaustion.cnf": "47bfefb858fcefcf2b53067eaee587f4ca8547a1da40dcecc8a612a36da5b110",
+  "inputs/chain-forward.cnf": "c557e8f59304e4b07715c3e3d3e3d1473c0ce74ec2d00cbc0e9347b0b1af6f91",
+  "inputs/chain-reverse.cnf": "1420e8fd759eabb5846074b7066ad2e417b28ae886f83380723e65e4a8307568",
+  "inputs/clique4-three-colors.cnf": "2b5cd02cb2e9991a5ae329aca8a80e62f395c0a0a3169d1d948db973599c2fc1",
+  "inputs/cycle7-three-colors.cnf": "4d65b9a98dbfe6e0795cb3046df44ee8b50531d32989517d222f7710b654833e",
+  "inputs/latin-square4.cnf": "a4638073a56f3c9e0cbe8fb2ddb72f813a3a4e87291081be9eaff84ab0ccf2b0",
+  "inputs/manifest.json": "a103e68b18c98a21efeeb9d65dd00b982a330e09c51f4e772a09cecc2d0d650c",
+  "inputs/pigeonhole5-into4.cnf": "d6dc99384a1c916c8d9d0af64828f177912e5c81c7e96334560cf8c617f69a70",
+  "inputs/pigeonhole6-into5.cnf": "4b132c8599de30806a923acfd13a70bbe7689b58d9777346673ad5256891ec94",
+  "inputs/random-eight-vars.cnf": "574dea044ffb0b68ba24eca74cd5914b22c7226d4ffb4b0824223274fdc3de02",
+  "inputs/random-planted24.cnf": "9ba778344161ca3d595d7d664b2995a0c5978f7bb7824e93cb9db7b878746c74"
+}

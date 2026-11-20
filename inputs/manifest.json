@@ -1,0 +1,129 @@
+[
+  {
+    "name": "cycle7-three-colors",
+    "variables": 21,
+    "clauses": 49,
+    "expected_solver_status": "SAT",
+    "evidence": "A seven-cycle has a constructive three-coloring.",
+    "graph_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        0
+      ]
+    ],
+    "graph_colors": 3
+  },
+  {
+    "name": "clique4-three-colors",
+    "variables": 12,
+    "clauses": 34,
+    "expected_solver_status": "UNSAT",
+    "evidence": "Four mutually adjacent vertices need four distinct colors."
+  },
+  {
+    "name": "latin-square4",
+    "variables": 64,
+    "clauses": 340,
+    "expected_solver_status": "SAT",
+    "evidence": "The cyclic Latin square (row+column) mod 4 satisfies this encoding."
+  },
+  {
+    "name": "pigeonhole5-into4",
+    "variables": 20,
+    "clauses": 75,
+    "expected_solver_status": "UNSAT",
+    "evidence": "Five pigeons cannot occupy four capacity-one holes."
+  },
+  {
+    "name": "pigeonhole6-into5",
+    "variables": 30,
+    "clauses": 141,
+    "expected_solver_status": "UNSAT",
+    "evidence": "Six pigeons cannot occupy five capacity-one holes."
+  },
+  {
+    "name": "chain-forward",
+    "variables": 100,
+    "clauses": 100,
+    "expected_solver_status": "SAT",
+    "evidence": "Root unit 1 implies every following variable."
+  },
+  {
+    "name": "chain-reverse",
+    "variables": 100,
+    "clauses": 100,
+    "expected_solver_status": "SAT",
+    "evidence": "The same implication chain in reversed clause order; deliberately adversarial to repeated scanning."
+  },
+  {
+    "name": "random-planted24",
+    "variables": 24,
+    "clauses": 96,
+    "expected_solver_status": "SAT",
+    "evidence": "Seed 51204; generated clauses preserve a known planted assignment.",
+    "known_model": [
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      -6,
+      -7,
+      8,
+      -9,
+      10,
+      11,
+      -12,
+      13,
+      -14,
+      15,
+      16,
+      17,
+      18,
+      -19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "name": "random-eight-vars",
+    "variables": 8,
+    "clauses": 34,
+    "expected_solver_status": "SAT",
+    "evidence": "Seeded random 3-CNF; expected status independently enumerates all 256 assignments."
+  },
+  {
+    "name": "budget-exhaustion",
+    "variables": 2,
+    "clauses": 3,
+    "expected_solver_status": "UNKNOWN",
+    "evidence": "Known satisfiable, but zero decision assignments are permitted; this is not an UNSAT claim."
+  }
+]
