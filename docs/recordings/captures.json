@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-20T23:46:47.754990+00:00",
+  "captured_at_utc": "2026-11-21T01:06:17.850677+00:00",
   "source": "Actual browser rendering of docs/report.html",
   "recording": "Continuous automated browser review; not manual development footage",
   "viewport": {
@@ -7,8 +7,8 @@
     "height": 1000
   },
   "page_title": "Java CNF solver study",
-  "report_sha256_normalized_text": "a9820525a6ef5edeb44b643c53aa54c0d44dc3425e5bb28c092404b2eafa22e6",
-  "video_sha256": "d20e2789ff6c284e60d4b8528a5d1f56696d9fa529df385548c6898e2cff5c9b",
+  "report_sha256_normalized_text": "ad813ad8ff2881987c6521632d4ea7ffe1d1df7e1d9d7b789c9e269f41f924a7",
+  "video_sha256": "5eb24b5e1601269337d48731a8f1137edd364014aecaf0429f96a6098f73c768",
   "captures": [
     {
       "path": "docs/screenshots/01_overview.png",

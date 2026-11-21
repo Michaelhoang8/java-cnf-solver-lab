@@ -52,3 +52,9 @@ UNSAT examples have independent analytical explanations: four-clique three-color
 Watched propagation avoids repeatedly scanning unrelated clauses. The forward/reverse implication-chain pair deliberately demonstrates sensitivity to clause order. Fewer literal checks do not guarantee a faster small solve: watch-list operations, instrumentation, JIT compilation and other work remain. The report preserves actual timings, including cases where scanning is faster.
 
 This is DPLL, with no clause learning, restarts, CDCL, incremental solving, assumptions API or DRAT/LRAT proof generation. Bounds are 256 variables, 5,000 original clauses, 50,000 original literals and at most one million branch assignments. Decision budgets are work limits, not hard wall-clock deadlines; exhausting one returns UNKNOWN.
+
+## Presentation revisions
+
+The responsive report update reuses the recorded measurements. The exact original measured driver is preserved in [results/measurement-sources/run_study.py](results/measurement-sources/run_study.py), with its original LF-normalized SHA256 in the adjacent manifest. The current `results/source-sha256.json` records unchanged measured implementation sources plus the current presentation/verification driver. It does not claim that revised report styling was present during the original measurements.
+
+`python scripts/run_study.py --reuse` checks the measured implementation before regenerating the report from recorded results. No timing samples are collected in that mode. `python scripts/verify_results.py` checks the archived driver hash as well as the measured evidence.

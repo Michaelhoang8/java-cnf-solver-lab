@@ -32,6 +32,12 @@ def read_cnf(path):
 
 
 def verify(out):
+    archived_manifest = out / "results/measurement-sources/manifest.json"
+    if archived_manifest.exists():
+        archived = json.loads(archived_manifest.read_text(encoding="utf-8"))
+        original = (out / archived["archived_path"]).read_bytes()
+        original = original.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        assert hashlib.sha256(original).hexdigest() == archived["sha256_lf"]
     manifest = {
         case["name"]: case
         for case in json.loads((out / "inputs/manifest.json").read_text())
